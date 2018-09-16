@@ -38,7 +38,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    transition: ease-in-out .8s;
+    transition: ease-in-out .35s;
     left: -8.45%;
 }
 
@@ -50,7 +50,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: ease-in-out .8s;
 }
 
 #toolContainer{
