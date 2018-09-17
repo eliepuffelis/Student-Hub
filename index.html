@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Student Hub</title>
-        <link rel="stylesheet" href="main.css">
-        <script src="main.js"></script>
-    </head>
 
-    <body>
-        <div id="wrapper">
-            <div id="titleBar">STUDENT HUB</div>
-            <div id="greeting"></div>
-            <div id="toolBar">
-                <div id="toolBarLeft">
-                    <div id="toolContainer">
-                        <div class="tools"></div>
-                        <div class="tools"></div>
-                        <div class="tools">
-                            <div id="calculator"></div>
-                            <label class="toolLabel" for="">GRADE</label>
-                            <label class="toolLabel" for="">CALCULATOR</label>
-                        </div>
-                        <div class="tools"></div>
-                        <div class="tools"></div>
+<head>
+    <title>Student Hub</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="titleBar">STUDENT HUB</div>
+        
+        
+        <div id="greeting" class="toolPage"></div>
+        <div id="test2Container" class="toolPage"></div>
+        <div id="gradeCalculatorContainer" class="toolPage"></div>
+        <div id="test3Container" class="toolPage"></div>
+        <div id="test4Container" class="toolPage"></div>
+        <div id="toolBar">
+            <div id="toolBarLeft">
+                <div id="toolContainer">
+                    <div class="tools" onclick="openToolPage(0)"></div>
+                    <div class="tools" onclick="openToolPage(1)"></div>
+                    <div class="tools" onclick="openToolPage(2)">
+                        <div id="calculator"></div>
+                        <label class="toolLabel" for="">GRADE</label>
+                        <label class="toolLabel" for="">CALCULATOR</label>
                     </div>
-                </div>
-                <div id="toolButton" onclick="toggleToolBar()">
-                    <div id="toolButtonIcon"></div>
+                    <div class="tools" onclick="openToolPage(3)"></div>
+                    <div class="tools" onclick="openToolPage(4)"></div>
                 </div>
             </div>
+            <div id="toolButton" onclick="toggleToolBar()">
+                <div id="toolButtonIcon"></div>
+            </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>

@@ -23,13 +23,7 @@
     letter-spacing: 4px;
 }
 
-#greeting{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background-image: url(images/greeting.jpg);
-    background-size: 100% 100%;
-}
+
 
 #toolBar{
     width: 13%;
@@ -68,6 +62,8 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    cursor: pointer;
+    background-color: bisque;
 }
 
 #calculator{
@@ -104,3 +100,42 @@
     background-size: 100% 100%;
 
 }
+
+.toolPage{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    transition: ease 0.4s;
+}
+#greeting{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image: url(images/greeting.jpg);
+    background-size: 100% 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+#gradeCalculatorContainer{
+    background-color: black;
+}
+
+#test1Container{
+    background-color: aqua;
+}
+
+#test2Container{
+    background-color: blueviolet;
+}
+
+#test3Container{
+    background-color: chartreuse;
+}
+
+#test4Container{
+    background-color: red;
+}
+
