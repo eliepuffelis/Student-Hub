@@ -70,35 +70,34 @@
     transform: scale(1.25);
 }
 
-#home {
+#homeOption {
     width: 60px;
     height: 60px;
     background-image: url(images/homeIcon.png);
     background-size: 100% 100%;
 }
 
-#gpaCalculator {
+#gpaCalculatorOption {
     width: 60px;
     height: 60px;
     background-image: url(images/gpaCalculatorIcon.png);
     background-size: 100% 100%;
 }
 
-#gradeCalculator {
+#gradeCalculatorOption {
     width: 60px;
     height: 60px;
     background-image: url(images/gradeCalculatorIcon.png);
     background-size: 100% 100%;
 }
-
-#planner {
+#plannerOption {
     width: 60px;
     height: 60px;
     background-image: url(images/plannerIcon.png);
     background-size: 100% 100%;
 }
 
-#textbooks {
+#textbooksOption {
     width: 60px;
     height: 60px;
     background-image: url(images/textbooksIcon.png);
@@ -142,8 +141,17 @@
     opacity: 0;
     transition: ease 0.4s;
 }
+#invisible{
+    width: 87%;
+    height: 100%;
+    right: 0%;
+    position: fixed;
+    background-color: transparent;
+    
 
-#greeting {
+}
+
+#greetingPage {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -184,22 +192,19 @@
     color: black;
 }
 
-#gradeCalculatorContainer {
+#gpaCalculatorPage {
     background-color: black;
 }
 
-#test1Container {
-    background-color: aqua;
+#gradeCalculatorPage {
+    background-color: darkslategray;
 }
 
-#test2Container {
-    background-color: blueviolet;
+#plannerPage {
+    background-color: slategray;
 }
 
-#test3Container {
-    background-color: chartreuse;
+#textbooksPage {
+    background-color: dimgrey;
 }
 
-#test4Container {
-    background-color: red;
-}

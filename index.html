@@ -10,42 +10,42 @@
 <body>
     <div id="wrapper">
         <div id="titleBar">STUDENT HUB</div>
-        
-        
-        <div id="greeting" class="toolPage">
+
+        <div id="greetingPage" class="toolPage" onmouseover="hideToolBar()">
             <div id="loginRegisterContainer">
                 <button class="greetingButtons">LOGIN</button>
                 <button class="greetingButtons">REGISTER</button>
             </div>
         </div>
-        <div id="test2Container" class="toolPage"></div>
-        <div id="gradeCalculatorContainer" class="toolPage"></div>
-        <div id="test3Container" class="toolPage"></div>
-        <div id="test4Container" class="toolPage"></div>
+        <div id="gpaCalculatorPage" class="toolPage" onmouseover="hideToolBar()"></div>
+        <div id="gradeCalculatorPage" class="toolPage" onmouseover="hideToolBar()"></div>
+        <div id="plannerPage" class="toolPage" onmouseover="hideToolBar()"></div>
+        <div id="textbooksPage" class="toolPage" onmouseover="hideToolBar()"></div>
+
         <div id="toolBar">
             <div id="toolBarLeft">
                 <div id="toolContainer">
 
                     <div class="tools" onclick="openToolPage(0)">
-                        <div id="home"></div>
+                        <div id="homeOption"></div>
                         <label class="toolLabel" for="">HOME</label>
                     </div>
                     <div class="tools" onclick="openToolPage(1)">
-                        <div id="gpaCalculator"></div>
+                        <div id="gpaCalculatorOption"></div>
                         <label class="toolLabel" for="">GPA</label>
                         <label class="toolLabel" for="">CALCULATOR</label>
                     </div>
                     <div class="tools" onclick="openToolPage(2)">
-                        <div id="gradeCalculator"></div>
+                        <div id="gradeCalculatorOption"></div>
                         <label class="toolLabel" for="">GRADE</label>
                         <label class="toolLabel" for="">CALCULATOR</label>
                     </div>
                     <div class="tools" onclick="openToolPage(3)">
-                        <div id="planner"></div>
+                        <div id="plannerOption"></div>
                         <label class="toolLabel" for="">PLANNER</label>
                     </div>
                     <div class="tools" onclick="openToolPage(4)">
-                        <div id="textbooks"></div>
+                        <div id="textbooksOption"></div>
                         <label class="toolLabel" for="">TEXTBOOKS</label>
                     </div>
 

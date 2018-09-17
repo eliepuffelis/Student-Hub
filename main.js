@@ -27,3 +27,8 @@ function closeToolPage(){
         toolPages[i].style.opacity = '0'
     }
 }
+
+function hideToolBar(){
+document.getElementById("toolBar").style.left = '-8.45%';
+toolBarOpen = false;
+}
